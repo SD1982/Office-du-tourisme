@@ -1,0 +1,205 @@
+/*
+CTC Separate Stylesheet
+Updated: 2018-05-22 15:17:37
+Theme Name: Sydney Child
+Theme URI: http://athemes.com/theme/sydney
+Template: sydney
+Author: aThemes
+Author URI: http://athemes.com
+Description: Sydney is a powerful business theme that provides a fast way for companies or freelancers to create an awesome online presence. Sydney brings plenty of customization possibilities like access to all Google Fonts, full color control, layout control, logo upload, full screen slider, header image, sticky navigation and much more. Also, Sydney provides all the construction blocks you need to rapidly create an engaging front page.
+Tags: two-columns,right-sidebar,custom-colors,custom-background,custom-header,custom-menu,featured-images,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.45.1526995057
+*/
+
+/*
+ Theme Name:   Mon thème enfant
+ Theme URI:    https://monsite.com
+ Description:  Description de mon thème enfant
+ Author:       stephane
+ Author URI:   www.wedostedec.com
+ Template:     sydney
+ Version:      1.0.0
+*/
+
+.site-footer {
+    padding: 0px;
+}
+
+.footer-widgets {
+    padding: 0px;
+}
+
+.header-wrap .container > .row {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+@-webkit-keyframes moveimg {
+
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+
+    25% {
+
+        -webkit-transform: translateX(40px);
+
+        transform: translateX(40px);
+
+    }
+    50% {
+        -webkit-transform: translate(0px);
+        transform: translate(0px);
+    }
+
+    75% {
+        -webkit-transform: translateX(-40px);
+        transform: translateX(-40px);
+
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes moveimg {
+
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px)
+    }
+
+    25% {
+
+        -webkit-transform: translateX(40px);
+
+        transform: translateX(40px);
+
+    }
+    50% {
+        -webkit-transform: translate(0px);
+        transform: translate(0px);
+    }
+
+    75% {
+        -webkit-transform: translateX(-40px);
+        transform: translateX(-40px);
+
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+}
+
+.cfsFormShell * #selection {
+    width: 100%;
+}
+
+svg:not(:root).svg-inline--fa {
+    margin-right: 5px;
+}
+
+.elementor p a {
+    color: white;
+    -webkit-text-decoration-line: underline !important;
+    text-decoration-line: underline !important;
+}
+
+.roll-button {
+    border-radius: 10px;
+}
+
+.roll-button:hover {
+    background-color: white;
+    color: #354456;
+}
+
+th {
+    background-color: #354456;
+    color: white;
+}
+
+td a {
+    color: yellowgreen;
+}
+
+td a:hover {
+    color: red;
+}
+
+tr:hover {
+    background-color: #354456;
+    color: white;
+}
+
+tr #reservButton {
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #354456;
+    color: white;
+}
+
+tr:hover #reservButton {
+    background-color: white;
+    color: #354456;
+}
+
+tr #reservButton:hover {
+    background-color: yellowgreen;
+}
+
+@media all and (max-width:480px) {
+    .events-table tr {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .events-table th {
+        display: none;
+    }
+
+    body .admin-bar .site-header,
+    .admin-bar .site-header.float-header {
+        top: 0 !important;
+    }
+
+}
+
+@media all and (max-width:1024px) {
+    body .site-header.fixed {
+        position: fixed !important;
+
+    }
+}
+
+@media all and (min-width:1200px) {
+    tr img {
+        -webkit-animation: moveimg 5s infinite;
+        animation: moveimg 5s infinite;
+    }
+}
+
+.header-image {
+    display: none;
+}
+
+.header-clone {
+    display: none;
+}
+
+.skip-link {
+    display: none;
+}
